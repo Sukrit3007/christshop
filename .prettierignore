@@ -1,1 +1,3 @@
-**/payload-types.ts
+.vercel
+.next
+pnpm-lock.yaml
