@@ -1,3 +1,4 @@
+import Footer from 'components/layout/footer';
 import Navbar from 'components/layout/navbar';
 import { GeistSans } from 'geist/font';
 import { ensureStartsWith } from 'lib/utils';
@@ -39,6 +40,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
         <Suspense>
           <main>{children}</main>
         </Suspense>
+        <Footer />
       </body>
     </html>
   );
